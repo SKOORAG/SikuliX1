@@ -9,6 +9,7 @@ import org.sikuli.script.runnerSupport.JythonSupport;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.lang.reflect.Method;
+import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.util.Arrays;
 import java.util.Date;
@@ -436,7 +437,7 @@ public class Debug {
         if (printout != null) {
           printout.close();
         }
-        printout = new PrintStream(fileName);
+        printout = new PrintStream(fileName, Charset.forName("UTF-8"));
         log(3, "Debug: setLogFile: " + fileName);
         return true;
       } catch (Exception ex) {
