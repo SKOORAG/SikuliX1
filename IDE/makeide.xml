@@ -25,6 +25,16 @@
         <excludes>
           <exclude>**/win32-x86/**</exclude>
           <exclude>**/tessdata/**</exclude>
+          <exclude>sikulixlibs/linux/**</exclude>
+          <exclude>sikulixlibs/mac/**</exclude>
+          <exclude>darwin/**</exclude>
+          <exclude>com/sun/jna/linux-*/**</exclude>
+          <exclude>com/sun/jna/aix-*/**</exclude>
+          <exclude>com/sun/jna/sunos-*/**</exclude>
+          <exclude>com/sun/jna/darwin/**</exclude>
+          <exclude>com/sun/jna/openbsd-*/**</exclude>
+          <exclude>com/sun/jna/freebsd-*/**</exclude>
+          <exclude>images/**</exclude>
         </excludes>
       </unpackOptions>
       <scope>runtime</scope>
