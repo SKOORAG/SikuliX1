@@ -134,7 +134,7 @@ public class Settings {
   public static boolean ActionLogs = true;
   public static boolean InfoLogs = true;
   public static boolean DebugLogs = false;
-  public static boolean ProfileLogs = true;
+  public static boolean ProfileLogs = false;
   public static boolean TraceLogs = false;
   public static boolean LogTime = false;
 
